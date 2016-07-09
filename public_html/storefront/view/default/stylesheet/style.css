@@ -258,7 +258,7 @@ section.row {
 
 /* ------------ Header ------------ */
 .headerstrip {
-	height: 72px;
+	height: 100px;
 	background-color: #00a1cb;
 }
 .nav_expand {
@@ -268,11 +268,11 @@ section.row {
 }
 
 .header-logo {
-	width: 300px;
+	width: 303px;
 	background-color: #fff;
 	text-align: center;
-	height: 72px;
-	line-height: 72px
+	height: 100px;
+	line-height: 100px
 }
 
 #topnav select {

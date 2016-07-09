@@ -3,3 +3,54 @@ Disallow: /admin/
 Disallow: /core/
 Disallow: /download/
 Disallow: /system/
+Disallow: /cgi-bin/
+Disallow: /tmp/
+
+User-agent: *
+Allow: /all
+Allow: /
+
+User-agent: Mediapartners-Google
+Allow: /all
+Allow: /
+
+User-agent: Googlebot
+Allow: /all
+Allow: /
+
+User-agent: Adsbot-Google
+Allow: /all
+Allow: /
+
+User-agent: Googlebot-Mobile
+Allow: /all
+Allow: /
+
+# Disallow Following crawlers access to site.
+
+User-agent: TurnitinBot/2.1
+Disallow: /
+
+User-agent: TurnitinBot
+Disallow: /
+
+User-agent: ia_archiver
+Disallow: /
+
+User-agent: EmailWolf
+Disallow: /
+
+User-agent: EmailSiphon
+Disallow: /
+
+User-agent: EmailCollector
+Disallow: /
+
+User-agent: AboutUsBot 
+Disallow: /
+
+User-agent: SurveyBot
+Disallow: /
+
+User-agent: robtexbot
+Disallow: /

@@ -11,10 +11,14 @@ public_html/admin/system/backup/
 public_html/admin/system/uploads/
 public_html/system/cache/*
 public_html/system/logs/*
-public_html/system/config.php
 public_html/image/thumbnails/
 
 
 public_html/admin/view/default/template/pages/catalog/product_files.tpl
 
 *.swp
+/public_html/nbproject/private/
+/public_html/resources/image/
+public_html/error_log
+public_html/google*
+public_html/system/config.php

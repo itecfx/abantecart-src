@@ -117,7 +117,7 @@ final class ARequest {
         	$final_split = explode('=', $split_parameters[$i]);
         	$parms[$final_split[0]] = $final_split[1];
     	}	
-    	return $parms;	
+    	return $this->clean($params);
 	} 
 
 	private function _detectBrowser() {

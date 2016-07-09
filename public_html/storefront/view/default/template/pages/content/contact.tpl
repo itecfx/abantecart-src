@@ -25,8 +25,8 @@
 	    <div class="col-md-6 pull-left">
 	    <b><?php echo $text_address; ?></b><br />
 	      <?php echo $store; ?><br />
-	      <address><?php echo $address; ?></address>
-	    </div>
+	      <address><?php echo $address; ?></address>              
+	    </div>              
 	    <div class="col-md-6 pull-right">
 	      <?php if ($telephone) { ?>
 	      <b><?php echo $text_telephone; ?></b><br />
@@ -38,6 +38,15 @@
 	      <?php echo $fax; ?>
 	      <?php } ?>
 	    </div>
+            <iframe
+                  width="600"
+                  height="450"
+                  frameborder="0" style="border:0"
+                  src="https://www.google.com/maps/embed/v1/place?key=<?php echo trim(GOOGLE_KEY) ?>
+                  &q=<?php echo trim($store.' '.$address); ?>
+                  &attribution_source=Google+Maps+Embed+API
+                  &attribution_web_url=<?php echo 'http://'.$_SERVER[HTTP_HOST] ?>">
+            </iframe>
 	  </div>
 
 	  <div class="row mt20">

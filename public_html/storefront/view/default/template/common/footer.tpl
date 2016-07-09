@@ -44,7 +44,7 @@
 				<?php echo ${$children_blocks[6]}; ?>
 			</div>
 			<div class="pull-right align_center">
-				<?php echo $text_project_label ?>
+				<?php #echo $text_project_label ?>
 				<br />
 	    		<?php echo $text_copy; ?>				
 			</div>
