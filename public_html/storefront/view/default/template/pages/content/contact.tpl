@@ -38,7 +38,8 @@
 	      <?php echo $fax; ?>
 	      <?php } ?>
 	    </div>
-            <iframe
+            <?php if(null !== GOOGLE_KEY) { ?>
+              <iframe
                   width="600"
                   height="450"
                   frameborder="0" style="border:0"
@@ -46,7 +47,8 @@
                   &q=<?php echo trim($store.' '.$address); ?>
                   &attribution_source=Google+Maps+Embed+API
                   &attribution_web_url=<?php echo 'http://'.$_SERVER[HTTP_HOST] ?>">
-            </iframe>
+              </iframe>
+            <?php } ?>
 	  </div>
 
 	  <div class="row mt20">
